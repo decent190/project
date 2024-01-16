@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    width: 30%;
+    height: 30vh;
+    background-color: black;
+    color: whitesmoke;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:481px){
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: aquamarine;  
+    }
+    .box{
+        width: 100%;
+        height: 30vh;
+        background-color: blue;
+        color: black;
+        font-size: 40px;
+    }      
+}
+@media (min-width:482px) and (max-width: 768px){
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: black;  
+    }
+    .box{
+        width: 100%;
+        height: 30vh;
+        background-color: yellow;
+        color: white;
+        font-size: 60px;
+    }      
+}

@@ -1,0 +1,30 @@
+h1{
+    color: brown;
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+span{
+    color: blue;
+}
+/* CLASS */
+.world{
+    color: red;
+}
+/* ID */
+#welcome{
+    font-size: 70px;
+    color: blue;
+}
+.background{
+    background-image: url(img/pepsi.png);
+      background: radial-gradient(rgb(29,210,36),rgb(163,168,173)); 
+    height:100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 100px;
+}

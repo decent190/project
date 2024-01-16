@@ -1,0 +1,39 @@
+
+
+.background{
+    background-image: url(img/sqi\ image.jpg);
+    height:75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    margin-top: 5%;
+}
+.main{
+
+    margin-left: 750px;
+    color: white;
+    font-size: 25px;
+    margin-top: -500px;
+}
+button{
+    color: white;
+    background-color: #00208A;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    width: 20%;
+    height: 4rem;
+}
+iframe{
+    margin-top:-290px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+  
+
+
+
+
+    
